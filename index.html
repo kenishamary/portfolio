@@ -1,0 +1,1072 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kenisha Mary Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Radley&display=swap" rel="stylesheet">
+    <style>
+        /* Global Styles */
+        body, html {
+            margin: 0;
+            padding: 0;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        .container {
+            width: 80%;
+            margin: 0 auto;
+        }
+
+        h1, h2 {
+            margin: 0;
+        }
+
+        .btn {
+            background-color: #E1743B;
+            color: #FFF;
+            border-radius: 8px;
+            border: none;
+            padding: 10px 15px;
+            cursor: pointer;
+        }
+
+         /* Header Styles */
+         .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 10%;
+            background: #fff;
+            border-bottom: 1px solid #ddd;
+        }
+
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        .nav ul {
+            display: flex;
+            list-style: none;
+            gap: 20px;
+        }
+
+        .nav a {
+            text-decoration: none;
+            color: #333;
+            transition: color 0.3s ease;
+        }
+
+        .nav a.active {
+            border-bottom: 2px solid #e0793b;
+        }
+
+        .btn-resume {
+            background: #e0793b;
+            color: #fff;
+            padding: 10px 20px;
+            border-radius: 20px;
+            text-decoration: none;
+            transition: background 0.3s;
+        }
+        .btn-resume:hover {
+            background: #b55a29;
+        }
+
+        /* Hero Section */
+        .hero {
+            background-color: #FFDCC9;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 50px 0;
+        }
+
+        .hero-content {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .hero-image img {
+            width: 300px; /* Adjust image size as needed */
+        }
+
+        .text-content {
+            max-width: 600px;
+        }
+
+        .intro-text {
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+
+        /* Introduction Section */
+        .intro {
+            padding: 50px 0;
+        }
+
+        .highlight {
+            color: #E1743B;
+        }
+
+        .sub-text {
+            font-size: 18px;
+            margin: 20px 0;
+        }
+
+        .intro-card {
+            background-color: #FFF5EF;
+            padding: 20px;
+            margin-top: 20px;
+        }
+
+        /* Projects Section */
+        .projects {
+            padding: 50px 0;
+            text-align: center;
+        }
+
+        .project-showcase {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            margin-top: 20px;
+        }
+
+        .project-card {
+            display: inline-block;
+            width: 400px;
+            margin: 10px;
+            text-align: center;
+        }
+
+        .project-card img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+
+        .categories {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 30px;
+        }
+
+        .category {
+            background-color: #F2F4F7;
+            color: #000;
+        }
+
+        <title>Styled Footer</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8d9c1;
+        }
+
+        footer {
+            background-color: #f8d9c1;
+            padding: 40px 20px;
+            text-align: center;
+            color: #333;
+        }
+
+        .footer-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .footer-header {
+            font-size: 2rem;
+            margin-bottom: 20px;
+            color: #e0793b;
+        }
+
+        .footer-content {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            width: 100%;
+            max-width: 800px;
+            margin-bottom: 20px;
+            border-top: 1px solid #a97d5d;
+            padding-top: 20px;
+        }
+
+        .footer-column {
+            flex: 1;
+            padding: 10px;
+            min-width: 200px;
+        }
+
+        .footer-column h4 {
+            margin-bottom: 10px;
+            font-size: 1.1rem;
+            color: #e0793b;
+        }
+
+        .footer-nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .footer-nav ul li {
+            margin: 10px 0;
+        }
+
+        .footer-nav ul li a {
+            color: #333;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+
+        .footer-nav ul li a:hover {
+            color: #e0793b;
+        }
+
+        .social-media {
+            margin-top: 10px;
+        }
+
+        .social-media a {
+            margin: 0 5px;
+            color: #e0793b;
+            font-size: 1.2rem;
+            transition: transform 0.3s;
+        }
+
+        .social-media a:hover {
+            transform: scale(1.1);
+        }
+
+        .newsletter input[type="email"] {
+            padding: 10px;
+            border-radius: 5px;
+            border: 1px solid #ddd;
+            width: calc(100% - 50px);
+            margin-right: 10px;
+            box-sizing: border-box;
+        }
+
+        .newsletter button {
+            padding: 10px 20px;
+            background: #e0793b;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background 0.3s;
+        }
+
+        .newsletter button:hover {
+            background: #cf6933;
+        }
+
+        .hire-me-btn {
+            background: #e0793b;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 20px;
+            cursor: pointer;
+            transition: background 0.3s;
+            margin-top: 10px;
+        }
+
+        .hire-me-btn:hover {
+            background: #cf6933;
+        }
+
+        .footer-bottom {
+            border-top: 1px solid #a97d5d;
+            margin-top: 20px;
+            padding-top: 10px;
+            font-size: 0.9rem;
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+            max-width: 800px;
+        }
+
+        .footer-bottom a {
+            color: #333;
+            text-decoration: none;
+            margin: 0 5px;
+            transition: color 0.3s;
+        }
+
+        .footer-bottom a:hover {
+            color: #e0793b;
+        }
+
+        /* Modal Styles */
+        .modal {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.6);
+            justify-content: center;
+            align-items: center;
+            z-index: 1000;
+        }
+
+        .modal-content {
+            background: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            max-width: 400px;
+            text-align: center;
+        }
+
+        .modal-content h3 {
+            margin-bottom: 15px;
+            color: #e0793b;
+        }
+
+        .modal-content input, .modal-content textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 5px 0;
+            border-radius: 5px;
+            border: 1px solid #ddd;
+        }
+
+        .close-btn {
+            background: #cf6933;
+            color: #fff;
+            border: none;
+            padding: 10px;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+
+        .close-btn:hover {
+            background: #b55a29;
+        }
+    </style>
+</head>
+<body>
+
+     <!-- Header Section -->
+<header class="header">
+    <h1 class="logo">KENISHA MARY</h1>
+    <nav class="nav">
+        <ul>
+            <li><a href="#home" class="active">Home</a></li>
+            <li><a href="#about">About me</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#blogs">Blogs</a></li>
+        </ul>
+    </nav>
+    
+    <!-- Resume Button -->
+<a href="https://drive.google.com/drive/folders/13Ynz02ruZBqFi2F9Efazl2ZGq58TK_mw" class="btn-resume" target="_blank">View Resume</a>
+
+</header>
+
+<!-- CSS Styles -->
+<style>
+    /* Header Styles */
+    .header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px 10%;
+        background: #fff;
+        border-bottom: 1px solid #ddd;
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+    }
+    /* Smooth Scrolling */
+    html {
+        scroll-behavior: smooth;
+    }
+
+
+    .logo {
+        font-size: 24px;
+        font-weight: bold;
+    }
+
+    .nav ul {
+        display: flex;
+        list-style: none;
+        gap: 20px;
+    }
+
+    .nav a {
+        text-decoration: none;
+        color: #333;
+        transition: color 0.3s ease, border-bottom 0.3s ease;
+        padding-bottom: 5px;
+    }
+
+    .nav a:hover {
+        color: #e0793b;
+        border-bottom: 2px solid #e0793b;
+    }
+
+    .nav a.active {
+        border-bottom: 2px solid #e0793b;
+        color: #e0793b;
+    }
+
+    .btn-resume {
+        background: #e0793b;
+        color: #fff;
+        padding: 10px 20px;
+        border-radius: 20px;
+        text-decoration: none;
+        transition: background 0.3s;
+    }
+    
+    .btn-resume:hover {
+        background: #b55a29;
+        cursor: pointer;
+    }
+</style>
+
+<section id="home">
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="text-content">
+                    <p class="intro-text">Designing delightful experiences—because life’s too short for boring interfaces!</p>
+                </div>
+                <div class="hero-image">
+                    <img src="C:\Users\Kenisha\Desktop\website images\Homepage hero image.png" alt="Kenisha Mary" />
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Introduction Section -->
+    <section class="intro">
+        <div class="container">
+            <section id="about-section" class="intro">
+                <div class="container">
+            <h2>Hi, I’m <span class="highlight">Kenisha Mary</span></h2>
+            <p class="sub-text">a UI UX Designer crafting user experiences that matter, so y’all get a sense of ‘who I am’ right away!</p>
+            <div class="intro-card">
+                <p>Hey there! I’m a designer who believes less is more—except when it comes to laughter. I’m all about creating clean, simple designs that speak louder than words.</p>
+                <p>With a cup of coffee in one hand and a sketchbook in the other, I turn wild ideas into delightful digital experiences.</p>
+                <p>People say I’m easy to talk to, a good listener, and a fan of bad puns. When I’m not pixel-pushing, you’ll find me hunting for inspiration or finding new ways to make life just a bit more playful.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects">
+        <div class="container">
+            <h2>Let's have a look at my <span class="highlight">Projects!</span></h2>
+            <button class="btn see-all">See All</button>
+            <div class="project-showcase">
+                <div class="project-card">
+                    <img src="c:\Users\Kenisha\Desktop\website images\Frame 26.png" alt="WoodWick Candle Website Solution">
+                    <p>WoodWick - Candle Website Solution</p>
+                </div>
+                <div class="project-card">
+                    <img src="c:\Users\Kenisha\Desktop\website images\Frame 27.png" alt="Garson Project">
+                    <p>Garson - Food Park App Solution</p>
+                </div>
+            </div>
+            <div class="categories">
+                <button class="btn category">Landing Page</button>
+                <button class="btn category">Product Design</button>
+                <button class="btn category">UI UX Design</button>
+                <button class="btn category">Graphic Design</button>
+                <button class="btn category">Cards</button>
+            </div>
+        </div>
+    </section>
+</section>
+<section id="about">  
+</body><!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Projects</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        #projects-section {
+            padding: 40px;
+            text-align: center;
+            background: #fff;
+        }
+
+        .projects-header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
+
+        .projects-header p {
+            font-size: 1rem;
+            color: #666;
+            max-width: 600px;
+            margin: 0 auto 30px auto;
+        }
+
+        .filter-buttons {
+            margin-bottom: 40px;
+        }
+
+        .filter-btn {
+            background: #F5F5F5;
+            border: none;
+            border-radius: 20px;
+            padding: 10px 20px;
+            margin: 5px;
+            cursor: pointer;
+            font-size: 1rem;
+            color: #555;
+            transition: all 0.3s ease-in-out;
+        }
+
+        .filter-btn.active, .filter-btn:hover {
+            background: #FF6F3D;
+            color: #fff;
+        }
+
+        .projects-gallery {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        .project-card {
+            background: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            max-width: 300px;
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .project-card img {
+            width: 100%;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+        }
+
+        .project-card:hover {
+            transform: translateY(-10px);
+        }
+
+        .project-info {
+            padding: 15px;
+        }
+
+        .project-info .category {
+            color: #FF6F3D;
+            font-size: 0.9rem;
+            margin: 0;
+        }
+
+        .project-info h3 {
+            margin: 10px 0 0 0;
+            font-size: 1.2rem;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    
+    <!-- Header and Footer should be retained from the main site -->
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Kenisha's Portfolio</title>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                margin: 0;
+                padding: 0;
+                background-color: #fff;
+                color: #333;
+            }
+    
+            .container {
+                width: 80%;
+                margin: 0 auto;
+                padding: 20px;
+            }
+    
+            .header {
+                text-align: left;
+                margin-top: 20px;
+            }
+    
+            .header h1 {
+                font-size: 2.5rem;
+                color: #333;
+            }
+    
+            .header span {
+                color: #F08C53;
+            }
+    
+            .about {
+                margin-top: 20px;
+                line-height: 1.6;
+            }
+    
+            .about p {
+                margin-bottom: 15px;
+            }
+    
+            .highlight {
+                color: #F08C53;
+                font-weight: bold;
+            }
+    
+            .testimonial-section {
+                background-color: #FFE1CF;
+                padding: 20px;
+                margin-top: 40px;
+                border-radius: 8px;
+                text-align: center;
+            }
+    
+            .testimonial-section h2 {
+                margin: 0;
+                font-size: 1.8rem;
+            }
+    
+            .testimonial {
+                margin-top: 10px;
+                font-style: italic;
+                font-size: 1rem;
+            }
+    
+            .testimonial-author {
+                margin-top: 10px;
+                font-weight: bold;
+            }
+    
+            .other-things {
+                text-align: center;
+                margin-top: 40px;
+            }
+    
+            .other-things h2 {
+                font-size: 2rem;
+                margin-bottom: 20px;
+            }
+    
+            .interests {
+                display: flex;
+                justify-content: space-around;
+                gap: 20px;
+                margin-top: 20px;
+                flex-wrap: wrap;
+            }
+    
+            .interest {
+                width: 30%;
+                text-align: center;
+            }
+    
+            .interest img {
+                width: 100%;
+                height: auto;
+                border-radius: 50%;
+                /* Circle Image */
+    
+      
+            
+    
+            .interest h3 {
+                margin-top: 15px;
+                color: #F08C53;
+            }
+    
+            .interest p {
+                font-size: 0.9rem;
+                color: #555;
+            }
+    
+            @media (max-width: 768px) {
+                .interests {
+                    flex-direction: column;
+                    align-items: center;
+                }
+    
+                .interest {
+                    width: 80%;
+                }
+            }
+        </style>
+    </head>
+    
+    <body>
+        <div class="container">
+            <div class="header">
+                <h1>Hi there, I’m <span>Kenisha</span>.</h1>
+            </div>
+            <div class="about">
+                <p>I am a UX designer doing . I create thoughtful experiences that are built for everyone to use and enjoy. All in all, I believe that, as a designer, I have a mission to genuinely care for the people I design for.</p>
+                <p>Growing up, whenever someone asked me what my dream was, I would always say, <span class="highlight">“I want to be an artist”</span>. I was constantly immersed in creative activities - drawing, painting, designing, and daydreaming about what I could create next.</p>
+                <p>I like to keep things clean, minimal, and a little bit quirky. When I’m not designing, you’ll find me hunting for the perfect coffee, cracking bad jokes, or dreaming about my future adventures in Dubai. Let’s make some cool stuff together!</p>
+            </div>
+            <div class="testimonial-section">
+                <h2>Testimonials</h2>
+                <p class="testimonial">“Working with Kenisha was like finding the perfect font—you don’t realize how much you needed it until it’s there. They brought our vision to life with designs that were not just beautiful but also functional. A true design wizard!”</p>
+                <p class="testimonial-author">- Aleena Susan George, Psychologist</p>
+            </div>
+            <div class="other-things">
+                <h2>Other things I enjoy</h2>
+                <div class="interests">
+                    <div class="interest">
+                        <img src="c:\Users\Kenisha\Desktop\website images\about me 1.png" alt="Food & Desserts">
+                        <h3>Food & Desserts</h3>
+                        <p>I’m always on the lookout for the next best food, dessert, and coffee spots!</p>
+                    </div>
+                    <div class="interest">
+                        <img src="C:\Users\Kenisha\Desktop\website images\about me 2.png" alt="Weekend Trips">
+                        <h3>Weekend Trips</h3>
+                        <p>For me, nothing beats than a spontaneous trip to discover spots off the path!</p>
+                    </div>
+                    <div class="interest">
+                        <img src="C:\Users\Kenisha\Desktop\website images\about me 3.png" alt="Sketching">
+                        <h3>Sketching</h3>
+                        <p>My notebooks are half random doodles that just seem to appear during creative bursts!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+    </html>
+</section>    
+
+<section id="projects">
+        <div class="projects-header">
+            <h1>My Projects</h1>
+            <p>Every project here is a blend of creativity, thoughtful problem-solving, and just the right touch of fun—because great design should feel as good as it looks!</p>
+            <div class="filter-buttons">
+                <button class="filter-btn active">All</button>
+                <button class="filter-btn">UI/UX</button>
+                <button class="filter-btn">Web Design</button>
+                <button class="filter-btn">App Design</button>
+                <button class="filter-btn">Graphic Design</button>
+            </div>
+        </div>
+
+        <div class="projects-gallery">
+            <div class="project-card">
+                <img src="c:\Users\Kenisha\Desktop\website images\Group 24.png" alt="AirCalling Landing Page Design">
+                <div class="project-info">
+                    <p class="category">Web Design</p>
+                    <h3>AirCalling Landing Page Design</h3>
+                </div>
+            </div>
+            <div class="project-card">
+                <img src="c:\Users\Kenisha\Desktop\website images\Group 237620.png" alt="Business Landing Page Design">
+                <div class="project-info">
+                    <p class="category">Web Design</p>
+                    <h3>Business Landing Page Design</h3>
+                </div>
+            </div>
+            <div class="project-card">
+                <img src="c:\Users\Kenisha\Desktop\website images\Group 237621.png" alt="Ecom Web Page Design">
+                <div class="project-info">
+                    <p class="category">Web Design</p>
+                    <h3>Ecom Web Page Design</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+</section>
+<section id="blogs">
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>The Blog</title>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                margin: 0;
+                padding: 0;
+                background-color: #fff;
+                color: #333;
+            }
+    
+            .blog-container {
+                width: 80%;
+                margin: 0 auto;
+                padding: 20px;
+            }
+    
+            .blog-header {
+                text-align: center;
+                margin-bottom: 20px;
+            }
+    
+            .blog-header h1 {
+                font-size: 2.5rem;
+            }
+    
+            .intro-section {
+                background-color: #FFE1CF;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                padding: 20px;
+                border-radius: 8px;
+                margin-bottom: 40px;
+            }
+    
+            .intro-section img {
+                max-width: 40%;
+                height: auto;
+            }
+    
+            .intro-section div {
+                max-width: 55%;
+                font-size: 1.2rem;
+                line-height: 1.6;
+            }
+    
+            .blog-posts {
+            display: flex;
+            gap: 20px;
+            flex-wrap: nowrap;
+            overflow-x: auto;
+            scroll-snap-type: x mandatory;
+            align-items: center;
+        }
+
+        .blog-card {
+            background: #f9f9f9;
+            border-radius: 12px;
+            overflow: hidden;
+            width: 300px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+            cursor: pointer;
+            scroll-snap-align: start;
+            align-items: center;
+        }
+
+        .blog-card:hover {
+            transform: translateY(-5px);
+        }
+    
+            .blog-card img {
+                width: 100%;
+                height: auto;
+            }
+    
+            .blog-content {
+                padding: 15px;
+            }
+    
+            .blog-content h3 {
+                margin: 10px 0;
+                font-size: 1.2rem;
+                color: #333;
+            }
+    
+            .blog-meta {
+                font-size: 0.8rem;
+                color: #666;
+                margin-bottom: 10px;
+            }
+    
+            .blog-description {
+                font-size: 0.9rem;
+                color: #555;
+                line-height: 1.4;
+                margin-bottom: 15px;
+            }
+    
+            .view-blog {
+                display: block;
+                text-align: left;
+                font-weight: bold;
+                color: #F08C53;
+                text-decoration: none;
+                font-size: 0.9rem;
+                margin-top: 10px;
+            }
+    
+            @media (max-width: 768px) {
+                .intro-section {
+                    flex-direction: column;
+                    text-align: center;
+                }
+    
+                .intro-section img {
+                    max-width: 100%;
+                    margin-bottom: 20px;
+                }
+    
+                .blog-posts {
+                    flex-direction: column;
+                    align-items: center;
+                }
+    
+                .blog-card {
+                    width: 90%;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <div class="blog-container">
+            <div class="blog-header">
+                <h1>The Blog</h1>
+            </div>
+            <div class="intro-section">
+                <img src="C:\Users\Kenisha\Desktop\website images\illustration blog.png" alt="Illustration of a person with a pencil">
+                <div>
+                    <p>Welcome to my blog—a space where thoughts turn into stories worth sharing, creativity flows, and design ideas brew!</p>
+                </div>
+            </div>
+            <div class="blog-posts">
+                <div class="blog-card">
+                    <img src="c:\Users\Kenisha\Desktop\website images\WhatsApp Image 2024-10-18 at 4.23.19 AM (1).jpeg" alt="Campus Chronicles 2024">
+                    <div class="blog-content">
+                        <h3>Campus Chronicles 2024 - Absolute Madness</h3>
+                        <div class="blog-meta">
+                            <img src="c:\Users\Kenisha\Desktop\website images\WhatsApp Image 2024-10-18 at 4.23.19 AM (1).jpeg" alt="Kenisha Mary" style="width: 20px; height: 20px; border-radius: 50%; vertical-align: middle;">
+                            Kenisha Mary &mdash; June 28, 2018 &mdash; <span>1K shares</span>
+                        </div>
+                        <p class="blog-description">Where every corner of college life comes alive! From creative projects to campus shenanigans, we're capturing the highs, lows, and everything in between!</p>
+                        <a href="#" class="view-blog">View Blog</a>
+                    </div>
+                </div>
+                <div class="blog-card">
+                    <img src="c:\Users\Kenisha\Desktop\website images\f3f4098c-ae3d-418f-bd40-685b53686898.jpg" alt="Design Freshers Frenzy">
+                    <div class="blog-content">
+                        <h3>Design Freshers Frenzy at PES University</h3>
+                        <div class="blog-meta">
+                            <img src="c:\Users\Kenisha\Desktop\website images\f3f4098c-ae3d-418f-bd40-685b53686898.jpg" alt="Kenisha Mary" style="width: 20px; height: 20px; border-radius: 50%; vertical-align: middle;">
+                            Kenisha Mary &mdash; June 28, 2018 &mdash; <span>1K shares</span>
+                        </div>
+                        <p class="blog-description">Step into our Freshers Frenzy! A night filled with new faces, laughter, awkward dance moves, and unforgettable moments as we kicked off our college!</p>
+                        <a href="#" class="view-blog">View Blog</a>
+                    </div>
+                </div>
+                <div class="blog-card">
+                    <img src="c:\Users\Kenisha\Desktop\website images\blog image 3.jpeg" alt="Canvas Art Beat Unplugged 2.0">
+                    <div class="blog-content">
+                        <h3>Canvas Art Beat Unplugged 2.0</h3>
+                        <div class="blog-meta">
+                            <img src="c:\Users\Kenisha\Desktop\website images\blog image 3.jpeg" alt="Kenisha Mary" style="width: 20px; height: 20px; border-radius: 50%; vertical-align: middle;">
+                            Kenisha Mary &mdash; June 28, 2018 &mdash; <span>1K shares</span>
+                        </div>
+                        <p class="blog-description">Art meets raw creativity! When this canvas comes alive—it's all about expressing emotions! Crafting some blooming sunflowers during the summer.</p>
+                        <a href="#" class="view-blog">View Blog</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+    </html>
+</section>    
+
+    <!-- Retain the same footer as in your main website -->
+</body>
+</html>
+</html>
+ <!-- Footer Section -->
+ <footer>
+    <div class="footer-container">
+        <h2 class="footer-header">Let's Connect There</h2>
+        <div class="footer-content">
+            <div class="footer-column footer-nav">
+                <h4>Navigation</h4>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About Me</a></li>
+                    <li><a href="#">Projects</a></li>
+                    <li><a href="#">Blogs</a></li>
+                    <li><a href="#">Resume</a></li>
+                </ul>
+                <div class="social-media">
+                    <a href="#" target="_blank">
+                        <img src="c:\Users\Kenisha\Desktop\website images\facebook.png" alt="Facebook" style="width: 24px; height: 24px;">
+                    </a>
+                    <a href="#" target="_blank">
+                        <img src="c:\Users\Kenisha\Desktop\website images\instagram.png" alt="Instagram" style="width: 24px; height: 24px;">
+                    </a>
+                    <a href="#" target="_blank">
+                        <img src="c:\Users\Kenisha\Desktop\website images\youtube.png" alt="YouTube" style="width: 24px; height: 24px;">
+                    </a>
+                    <a href="#" target="_blank">
+                        <img src="c:\Users\Kenisha\Desktop\website images\whatsapp.png" alt="WhatsApp" style="width: 24px; height: 24px;">
+                    </a>
+                    <a href="#" target="_blank">
+                        <img src="c:\Users\Kenisha\Desktop\website images\twitter.png" alt="Twitter" style="width: 24px; height: 24px;">
+                    </a>
+                </div>
+                
+            </div>
+            <div class="footer-column">
+                <h4>Contact</h4>
+                <p>+8590522138</p>
+                <p>kenishamary@gmail.com</p>
+                <p>Kenuiux.com</p>
+            </div>
+            <div class="footer-column newsletter">
+                <h4>Get the latest information</h4>
+                <input type="email" placeholder="Email Address" />
+                <button>➔</button>
+            </div>
+        </div>
+        <button class="hire-me-btn" onclick="openModal()">Hire me ➔</button>
+        <div class="footer-bottom">
+            <p>Copyright © 2023 Keniuiux. All Rights Reserved.</p>
+            <p><a href="#">User Terms & Conditions</a> | <a href="#">Privacy Policy</a></p>
+        </div>
+    </div>
+</footer>
+
+<!-- Modal for Hire Me -->
+<div id="hire-modal" class="modal">
+    <div class="modal-content">
+        <h3>Contact Me</h3>
+        <input type="text" placeholder="Your Name" required />
+        <input type="email" placeholder="Your Email" required />
+        <textarea rows="4" placeholder="Your Message" required></textarea>
+        <button class="btn">Send Message</button>
+        <button class="close-btn" onclick="closeModal()">Close</button>
+    </div>
+</div>
+
+<script>
+    // Function to open and close the modal
+    function openModal() {
+        document.getElementById('hire-modal').style.display = 'flex';
+    }
+
+    function closeModal() {
+        document.getElementById('hire-modal').style.display = 'none';
+    }
+</script>
+</body>
+</html>
